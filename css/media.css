@@ -695,12 +695,15 @@
     position: static;
     margin: 0;
   }
-  .tab.active::after {
+   .tabs .tab.active::after {
     display: none;
   }
   .tabs__reviews::before,
   .tabs__reviews::after {
     display: none;
+  }
+  .tab-item.active-tab {
+    display: none !important; 
   }
 }
 /*----------480px----------*/
@@ -779,10 +782,10 @@
     left: 75px;
     bottom: 8px;
   }
-  .tab-item {
+  .tab-item  {
     display: none;
   }
-  .tab-item:first-child {
+ .tab-item:first-child {
     display: none;
   }
   .tabs {
