@@ -703,7 +703,10 @@
     display: none;
   }
   .tab-item.active-tab {
-    display: none !important; 
+    display: none ; 
+  }
+  .tabs__content{
+    display: none;
   }
 }
 /*----------480px----------*/
